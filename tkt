@@ -1,0 +1,9 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+def froot(x):
+    return 4*x**3 - 24*x**2 + 48x - 32
+    
+x = np.linspace (5,0,100)
+y = froot(x)
+plt.plot(x,y)
